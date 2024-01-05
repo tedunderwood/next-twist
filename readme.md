@@ -9,9 +9,9 @@ The script that iterates through texts, forming prompts and sending them to the 
 
 The output from ```FourPassAnalysis``` is in ```/chapterout```.
 
-Further analysis is performed on that output by ```AnalyzeFirstPassOfAll.ipynb``` (which produces the scatterplot of twenty-five novels against name_cloze data), and by ```ChapterAnalysis.ipynb``` (which produces the swarmplot for *Hound of the Baskervilles*).
+Further analysis is performed on that output by ```AnalyzeFirstRunOfAll.ipynb``` (which produces the scatterplot of twenty-five novels against name_cloze data), and by ```ChapterAnalysis.ipynb``` (which produces the swarmplot for *Hound of the Baskervilles*).
 
-The name_cloze data is drawn partly from Chang et al 2023, and partly produced by ```NameCloze.ipynb```.
+The name_cloze data is drawn partly from [Chang et al 2023](https://arxiv.org/abs/2305.00118), and partly produced by ```NameCloze.ipynb```.
 
 The visualization comparing model predictions to human predictions was based on a slightly different, older pipeline which allowed multiple sentences. For those scripts and data see ```/human-ground-truth```.
 
